@@ -1,5 +1,5 @@
 *.ipynb
-data/*.tsv
+*.tsv
 .ipynb_checkpoints/*
 *.pyc
 Models/*
