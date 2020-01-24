@@ -9,8 +9,12 @@ Run the following command to install all required packages:
 ```
 pip install -r requirements.txt
 ```
+Also create a Models directory to save your trained models.
+```
+mkdir Models
+```
 ## Data
-Download the data from this [link](https://nlp.stanford.edu/sentiment/). There will be a main zip file download option at the right side of the page. Extract the contents of the zip file and place them in data/SST/
+Download the data from this [link](https://gluebenchmark.com/tasks). There will be a main zip file download option at the right side of the page. Extract the contents of the zip file and place them in data/SST/
 
 ## Training the model
 To train the model with fixed weights of BERT layers, execute the following command from the project directory
